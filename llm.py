@@ -9,7 +9,7 @@ from openai.types.chat import ChatCompletionMessageParam
 
 load_dotenv()
 # 创建 OpenAI 对象
-default_client = OpenAI()
+default_client = OpenAI(api_key='test-api-key')
 # 默认模型名称
 default_model = 'deepseek-v4-flash-0731'
 
